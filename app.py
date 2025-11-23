@@ -12,7 +12,7 @@ PRODUCTS = [
         'name': 'CyberBook Pro X1',
         'category': 'Laptops',
         'price': 1299.99,
-        'image': 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500&h=500&fit=crop',
+        'image': 'https://cybertek-products-images-2025.s3.us-east-1.amazonaws.com/products/1.jpeg',
         'description': 'Ultra-thin laptop with 16GB RAM, 512GB SSD, and stunning 4K display',
         'specs': ['Intel i7 Processor', '16GB RAM', '512GB SSD', '14-inch 4K Display'],
         'stock': 15
@@ -22,7 +22,7 @@ PRODUCTS = [
         'name': 'Quantum Wireless Headphones',
         'category': 'Audio',
         'price': 249.99,
-        'image': 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop',
+        'image': 'https://cybertek-products-images-2025.s3.us-east-1.amazonaws.com/products/2.jpeg',
         'description': 'Premium noise-cancelling headphones with 40-hour battery life',
         'specs': ['Active Noise Cancellation', '40-Hour Battery', 'Bluetooth 5.3', 'Premium Sound'],
         'stock': 28
@@ -32,7 +32,7 @@ PRODUCTS = [
         'name': 'NeoWatch Ultra',
         'category': 'Wearables',
         'price': 399.99,
-        'image': 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&h=500&fit=crop',
+        'image': 'https://cybertek-products-images-2025.s3.us-east-1.amazonaws.com/products/3.jpeg',
         'description': 'Advanced smartwatch with health tracking and AMOLED display',
         'specs': ['AMOLED Display', 'Heart Rate Monitor', 'GPS Tracking', 'Water Resistant'],
         'stock': 22
@@ -42,7 +42,7 @@ PRODUCTS = [
         'name': 'TechPad Mini',
         'category': 'Tablets',
         'price': 599.99,
-        'image': 'https://images.unsplash.com/photo-1561154464-82e9adf32764?w=500&h=500&fit=crop',
+        'image': 'https://cybertek-products-images-2025.s3.us-east-1.amazonaws.com/products/4.jpeg',
         'description': 'Compact tablet perfect for work and entertainment on the go',
         'specs': ['10.5-inch Display', '128GB Storage', '12MP Camera', 'All-Day Battery'],
         'stock': 18
@@ -52,7 +52,7 @@ PRODUCTS = [
         'name': 'ProGaming Mouse RGB',
         'category': 'Gaming',
         'price': 79.99,
-        'image': 'https://images.unsplash.com/photo-1527814050087-3793815479db?w=500&h=500&fit=crop',
+        'image': 'https://cybertek-products-images-2025.s3.us-east-1.amazonaws.com/products/5.jpeg',
         'description': 'High-precision gaming mouse with customizable RGB lighting',
         'specs': ['16000 DPI', 'RGB Lighting', 'Programmable Buttons', 'Ergonomic Design'],
         'stock': 45
@@ -62,7 +62,7 @@ PRODUCTS = [
         'name': 'UltraView 4K Monitor',
         'category': 'Displays',
         'price': 449.99,
-        'image': 'https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=500&h=500&fit=crop',
+        'image': 'https://cybertek-products-images-2025.s3.us-east-1.amazonaws.com/products/6.jpeg',
         'description': '27-inch 4K HDR monitor with stunning color accuracy',
         'specs': ['27-inch 4K', 'HDR Support', '144Hz Refresh', 'USB-C Connectivity'],
         'stock': 12
@@ -72,7 +72,7 @@ PRODUCTS = [
         'name': 'PowerBank Infinite',
         'category': 'Accessories',
         'price': 89.99,
-        'image': 'https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=500&h=500&fit=crop',
+        'image': 'https://cybertek-products-images-2025.s3.us-east-1.amazonaws.com/products/7.jpeg',
         'description': '30000mAh portable charger with fast charging technology',
         'specs': ['30000mAh Capacity', 'Fast Charging', 'Multiple Ports', 'LED Display'],
         'stock': 35
@@ -82,7 +82,7 @@ PRODUCTS = [
         'name': 'CyberCam 4K Pro',
         'category': 'Cameras',
         'price': 899.99,
-        'image': 'https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=500&h=500&fit=crop',
+        'image': 'https://cybertek-products-images-2025.s3.us-east-1.amazonaws.com/products/8.jpeg',
         'description': 'Professional 4K webcam for streaming and video calls',
         'specs': ['4K Resolution', 'Auto-Focus', 'Low-Light Performance', 'Wide Angle Lens'],
         'stock': 20
