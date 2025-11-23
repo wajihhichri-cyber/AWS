@@ -4,6 +4,7 @@ import json
 import boto3
 
 app = Flask(__name__)
+
 def get_flask_secret():
     client = boto3.client('secretsmanager', region_name='us-west-2')
 
@@ -12,7 +13,13 @@ def get_flask_secret():
     secret_json = json.loads(response['SecretString'])
     return secret_json['flask_session_key']
 
-app.secret_key = get_flask_secret()
+try : 
+
+    flask_secret = get_flask_secret()
+    app.secret_key = flask_secret
+    
+except : 
+    app.secret_key = 'cybertek-secret-key-change-in-production'
 
 # Demo Products Database
 PRODUCTS = [
