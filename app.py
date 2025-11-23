@@ -1,9 +1,18 @@
 from flask import Flask, render_template, request, redirect, url_for, session, jsonify
 from datetime import datetime
 import json
+import boto3
 
 app = Flask(__name__)
-app.secret_key = 'cybertek-secret-key-change-in-production'
+def get_flask_secret():
+    client = boto3.client('secretsmanager', region_name='us-west-2')
+
+    response = client.get_secret_value(SecretId='flask/session-key')
+
+    secret_json = json.loads(response['SecretString'])
+    return secret_json['flask_session_key']
+
+app.secret_key = get_flask_secret()
 
 # Demo Products Database
 PRODUCTS = [
