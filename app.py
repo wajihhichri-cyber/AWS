@@ -6,7 +6,7 @@ import boto3
 app = Flask(__name__)
 
 def get_flask_secret():
-    client = boto3.client('secretsmanager', region_name='us-west-2')
+    client = boto3.client('secretsmanager', region_name='us-east-1')
 
     response = client.get_secret_value(SecretId='flask/session-key')
 
