@@ -31,11 +31,12 @@ document.querySelectorAll('.product-card, .feature-card').forEach(el => {
     observer.observe(el);
 });
 
-// Add loading state to buttons
-document.querySelectorAll('button[type="submit"]').forEach(btn => {
+// Add loading state only to buttons that opt-in via data-loading="true"
+document.querySelectorAll('button[type="submit"][data-loading="true"]').forEach(btn => {
     btn.addEventListener('click', function() {
         if (this.form && this.form.checkValidity()) {
-            this.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Processing...';
+            const text = this.getAttribute('data-loading-text') || 'Processing...';
+            this.innerHTML = '<i class="fas fa-spinner fa-spin"></i> ' + text;
             this.disabled = true;
         }
     });
